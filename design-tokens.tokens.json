@@ -1,0 +1,250 @@
+{
+  "font": {
+    "card-title-lg": {
+      "description": "large titles on cards",
+      "type": "custom-fontStyle",
+      "value": {
+        "fontSize": 48,
+        "textDecoration": "none",
+        "fontFamily": "Inter",
+        "fontWeight": 700,
+        "fontStyle": "normal",
+        "fontStretch": "normal",
+        "letterSpacing": 0,
+        "lineHeight": 57.6,
+        "paragraphIndent": 0,
+        "paragraphSpacing": 0,
+        "textCase": "none"
+      },
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:9c70f2f6452c826bad0f1791662a91dd28facd3e,",
+          "exportKey": "font"
+        }
+      }
+    }
+  },
+  "colours": {
+    "default": {
+      "background": {
+        "type": "color",
+        "value": "#ffffffff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "default",
+            "collection": "colours",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:2:17",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "card": {
+        "card-background": {
+          "type": "color",
+          "value": "#fafafaff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "default",
+              "collection": "colours",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:2:25",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "card-title": {
+          "type": "color",
+          "value": "#0c0c0cff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "default",
+              "collection": "colours",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:2:27",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "card-corners": {
+          "description": "radius of corners",
+          "type": "dimension",
+          "value": 24,
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "default",
+              "collection": "colours",
+              "scopes": [
+                "CORNER_RADIUS"
+              ],
+              "variableId": "VariableID:2:28",
+              "exportKey": "variables"
+            }
+          }
+        }
+      }
+    },
+    "dark": {
+      "background": {
+        "type": "color",
+        "value": "#c0c0c0ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "dark",
+            "collection": "colours",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:2:17",
+            "exportKey": "variables"
+          }
+        }
+      },
+      "card": {
+        "card-background": {
+          "type": "color",
+          "value": "#0c0c0cff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "dark",
+              "collection": "colours",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:2:25",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "card-title": {
+          "type": "color",
+          "value": "#fafafaff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "dark",
+              "collection": "colours",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableId": "VariableID:2:27",
+              "exportKey": "variables"
+            }
+          }
+        },
+        "card-corners": {
+          "description": "radius of corners",
+          "type": "dimension",
+          "value": 24,
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "mode": "dark",
+              "collection": "colours",
+              "scopes": [
+                "CORNER_RADIUS"
+              ],
+              "variableId": "VariableID:2:28",
+              "exportKey": "variables"
+            }
+          }
+        }
+      }
+    }
+  },
+  "typography": {
+    "default": {
+      "title": {
+        "type": "color",
+        "value": "#343434ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "default",
+            "collection": "typography",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:2:18",
+            "exportKey": "variables"
+          }
+        }
+      }
+    },
+    "dark": {
+      "title": {
+        "type": "color",
+        "value": "#f5f5f5ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "mode": "dark",
+            "collection": "typography",
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "variableId": "VariableID:2:18",
+            "exportKey": "variables"
+          }
+        }
+      }
+    },
+    "card-title-lg": {
+      "description": "large titles on cards",
+      "fontSize": {
+        "type": "dimension",
+        "value": 48
+      },
+      "textDecoration": {
+        "type": "string",
+        "value": "none"
+      },
+      "fontFamily": {
+        "type": "string",
+        "value": "Inter"
+      },
+      "fontWeight": {
+        "type": "number",
+        "value": 700
+      },
+      "fontStyle": {
+        "type": "string",
+        "value": "normal"
+      },
+      "fontStretch": {
+        "type": "string",
+        "value": "normal"
+      },
+      "letterSpacing": {
+        "type": "dimension",
+        "value": 0
+      },
+      "lineHeight": {
+        "type": "dimension",
+        "value": 57.6
+      },
+      "paragraphIndent": {
+        "type": "dimension",
+        "value": 0
+      },
+      "paragraphSpacing": {
+        "type": "dimension",
+        "value": 0
+      },
+      "textCase": {
+        "type": "string",
+        "value": "none"
+      }
+    }
+  }
+}
